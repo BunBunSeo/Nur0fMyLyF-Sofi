@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For My Princess, Sofi 💕</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/animations.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Envelope Tearing Animation -->
+  <div class="envelope-container">
+    <img src="assets/envelope-sprite.png" class="envelope" id="tear-target">
+  </div>
+
+  <!-- Main Content (Hidden Until Envelope is Torn) -->
+  <div id="main-content" class="hidden">
+    <!-- Time Counter -->
+    <div class="time-counter">
+      <div class="pixel-font">Our Time Together</div>
+      <div id="counter">
+        <span class="years">3</span> Years<br>
+        <span class="days">1,095</span> Days<br>
+        <span class="seconds">...</span> Seconds
+      </div>
+    </div>
+
+    <!-- Floating Love Notes -->
+    <div class="love-note" data-x="0" data-y="0">Sofi, you're the stars in my night sky, shining moon who makes me smile 💗</div>
+    <div class="love-note" data-x="0" data-y="0">Forever and always, your Seo 🫶🏻</div>
+
+    <!-- Chuttamalle Dance -->
+    <div id="chuttamalle-dance"></div>
+
+    <!-- Secret Heart (Confetti Easter Egg) -->
+    <div id="secret-heart">❤️</div>
+
+    <!-- QR Code for AR -->
+    <div class="qr-code-container">
+      <p>Scan this QR code to see a special surprise!</p>
+      <img src="assets/qr-code.png" alt="QR Code">
+    </div>
+
+    <!-- Music Toggle -->
+    <button id="music-toggle">Play Music</button>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  <script src="scripts/envelope.js"></script>
+  <script src="scripts/chuttamalle.js"></script>
+  <script src="scripts/easter-egg.js"></script>
+  <script src="scripts/draggable.js"></script>
+  <script src="scripts/typing.js"></script>
+  <script src="scripts/confetti.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
