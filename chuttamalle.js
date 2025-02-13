@@ -6,7 +6,7 @@ function createDancers() {
   document.body.appendChild(danceContainer);
 
   // Play Chuttamalle song
-  const sound = new Howl({ src: ['assets/chuttamalle-song.mp3'] });
+  const sound = new Howl({ src: ['assets/music.mp3'] });
   sound.play();
 }
 
