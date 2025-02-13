@@ -1,0 +1,44 @@
+body {
+  font-family: 'Press Start 2P', cursive;
+  background: #ffe6f2;
+  color: #ff6b6b;
+  cursor: url('assets/heart-cursor.png'), auto;
+  margin: 0;
+  overflow: hidden;
+}
+
+.envelope-container {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
+
+.hidden {
+  display: none;
+}
+
+.time-counter {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.love-note {
+  position: absolute;
+  padding: 10px;
+  background: #ffe6eb;
+  border: 2px dashed #ff99bb;
+  cursor: pointer;
+}
+
+#secret-heart {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.qr-code-container {
+  text-align: center;
+  margin-top: 20px;
+}
